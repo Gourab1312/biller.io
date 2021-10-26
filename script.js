@@ -1,3 +1,7 @@
+
+
+// Logic of working of the home page
+
 showTask(); //for by default calling when the page ereal
 
 let username = document.getElementById("name");
