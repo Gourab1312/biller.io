@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biller.io</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="information.html">Information</a></li>
+        </ul>
+      </nav>
+      <div class="name">
+        <p><big>Biller.io</big></p>
+      </div>
+      <div class="tagline">
+        <p>Get your bills done like a pro</p>
+      </div>
+    </header>
+    <body>
+      <div class="login">
+        <!-- Name of backend file is backend.php change it accordingly -->
+        <form class="container" action="backend.php" onsubmit="redirect(event)" onsubmit="return validateForm()"> 
+          <div class="mb-4">
+            <label for="name" class="form-label">Name : </label>
+            <input
+              type="name"
+              class="form-control"
+              id="name"
+              placeholder="     Abc Biller"
+              style="position: relative; left: 33px"
+            />
+          </div>
+          <p id="nameError" class="error"></p>
+
+          <div class="mb-4">
+            <label
+              for="email"
+              class="form-label"
+              style="position: relative; right: 33px"
+              >Email address :</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="     Abc@biller.com"
+            />
+          </div>
+          <p id="emailError" class="error"></p>
+
+          <input type="submit" class="btn" value="Sign in" id="mybtn"></input>
+        </form>
+      </div>
+    </body>
+    <footer>
+      <p>Copyrights claimed by &copy; Biller.io team</p>
+    </footer>
+
+    <script>
+      function redirect(e){
+    e.preventDefault();
+    location.href = "home.html";
+  }
+    </script>
+  </body>
+</html>

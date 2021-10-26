@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&family=Signika:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 30vh;
+  width: 100vw;
+}
+
+nav {
+  height: 7vh;
+  background-color: rgb(134, 141, 240);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline;
+  padding: 0 150px;
+}
+
+nav ul li a:hover {
+  color: rgb(14, 119, 109);
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.name {
+  width: 60vw;
+  height: 10vh;
+  margin: 0px 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(241, 238, 12);
+  font-family: "Azeret Mono", monospace;
+  font-size: 50px;
+}
+
+.tagline {
+  width: 60vw;
+  height: 5vh;
+  margin: 5px 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(136, 138, 124);
+  font-family: "Permanent Marker", cursive;
+  font-size: 25px;
+}
+
+body {
+  height: 60vh;
+  width: 100vw;
+}
+
+.login {
+  height: 37vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 432px;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+.container {
+  height: 25vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Signika", sans-serif;
+  font-size: 20px;
+}
+
+.mb-4 {
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+  margin: 5px 10px;
+}
+
+.form-control{
+    width: 20vw;
+    height: 5vh;
+}
+
+.btn{
+    height: 8vh;
+    width: 18vw;
+    background-color: rgb(10, 20, 168);
+    color: rgb(213, 235, 23);
+    border-radius: 15px;
+    position: relative;
+    left: 2vw;
+}
+
+.btn:hover{
+    background-color:gold;
+    color: blue;
+}
+
+footer{
+    height: 7vh;
+    background-color: rgb(134, 141, 240);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Signika", sans-serif;
+    position: relative;
+    top: 129px;
+}
+
+.error{
+  color: red;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+#finalbtn{
+    height: 8vh;
+    width: 18vw;
+    background-color: rgb(10, 20, 168);
+    color: rgb(213, 235, 23);
+    border-radius: 15px;
+    position: relative;
+    left: 2vw;
+}
