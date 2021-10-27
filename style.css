@@ -109,7 +109,7 @@ body {
     color: blue;
 }
 
-footer{
+#foot{
     height: 7vh;
     background-color: rgb(134, 141, 240);
     color: white;
@@ -119,6 +119,42 @@ footer{
     font-family: "Signika", sans-serif;
     position: relative;
     top: 129px;
+}
+
+#footer-contact{
+    height: 7vh;
+    background-color: rgb(134, 141, 240);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Signika", sans-serif;
+    position: relative;
+    top: 38vh;
+}
+
+#footer-information{
+  height: 7vh;
+    background-color: rgb(134, 141, 240);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Signika", sans-serif;
+    position: relative;
+    top: 33vh;
+}
+
+#footer-about{
+  height: 7vh;
+    background-color: rgb(134, 141, 240);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Signika", sans-serif;
+    position: relative;
+    top: 33vh;
 }
 
 .error{
